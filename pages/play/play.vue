@@ -35,7 +35,7 @@
 			class="slider"
 			min="0"
 			:max="duration"
-			:value="nowtime"
+			:value="currentTime"
 			activeColor="#dedede" 
 			backgroundColor="#b6b6b6"
 			block-size="12"
@@ -131,6 +131,24 @@
 						"src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005212153185ec687ce5a9ba.flac",
 						"img": "http://p2.music.126.net/_UOTSqLC8qHRivyuUBC9OQ==/18200215974944920.jpg"
 					},
+					{
+						"name": "等你下课",
+						"author": "周杰伦&杨瑞代",
+						"src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005291845355ed0e7cf97450.mp3",
+						"img": "http://p2.music.126.net/_UOTSqLC8qHRivyuUBC9OQ==/18200215974944920.jpg"
+					},
+					{
+						"name": "回到过去",
+						"author": "周杰伦",
+						"src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005291849395ed0e8c30ed92.flac",
+						"img": "http://p2.music.126.net/_UOTSqLC8qHRivyuUBC9OQ==/18200215974944920.jpg"
+					},
+					{
+						"name": "麦芽糖",
+						"author": "周杰伦",
+						"src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005291854555ed0e9ff3c246.flac",
+						"img": "http://p2.music.126.net/_UOTSqLC8qHRivyuUBC9OQ==/18200215974944920.jpg"
+					},
 					
 				],
 				indicatorDots: true,
@@ -145,7 +163,7 @@
 		onLoad() {
 			bgAudioMannager = uni.getBackgroundAudioManager();
 			//如果要默认播放的话，把以下注释取消
-			//this.bgAudioInnit();
+			// this.bgAudioInnit();
 		},
 		computed: {
 			'nowtime': function() {
@@ -192,7 +210,6 @@
 			},
 			bgAudioInnit() {
 				var that = this
-				console.log(that.songList[that.nowIndex]);
 				bgAudioMannager.title = that.songList[that.nowIndex].name;
 				bgAudioMannager.singer = that.songList[that.nowIndex].author;
 				bgAudioMannager.coverImgUrl = that.songList[that.nowIndex].img;
