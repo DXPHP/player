@@ -68,6 +68,7 @@
 	font-size: 13px;
 	font-weight: lighter;
 	text-align: center;
+	margin-top: 15rpx;
 }
 .find-recommend{
 	width: 100%;
@@ -93,6 +94,7 @@
 	font-size: 18px;
 	font-weight: 400;
 	margin-left: 25rpx;
+	margin-top: 10rpx;
 }
 .find-choise .choise-right{
 	color: #666666;
@@ -162,6 +164,7 @@
 	        justify-content: center;
 }
 .find-style-list .style-item{
+	font-size: 14rpx;
 	width: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -172,7 +175,7 @@
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
-	margin-top: 15rpx;
+	margin-top: 20rpx;
 }
 .style-item image{
 	width: 100rpx;
@@ -199,7 +202,7 @@
 }
 .style-info .style-title{
 	width: 500rpx;
-	font-size: 18px;
+	font-size: 15px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;

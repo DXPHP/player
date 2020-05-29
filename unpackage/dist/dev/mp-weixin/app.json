@@ -12,5 +12,8 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap14.json"
+  "sitemapLocation": "sitemap50.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
 }

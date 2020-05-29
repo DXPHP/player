@@ -92,3 +92,10 @@
 	text-align: center;
 	line-height: 100upx;
 }
+.iconbtn{
+	width: 60upx;
+	height: 60upx;	
+	margin-left: 30upx;
+	margin-right: 30upx;
+
+}

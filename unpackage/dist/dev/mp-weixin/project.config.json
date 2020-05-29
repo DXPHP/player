@@ -9,7 +9,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.2",
 	"appid": "wx31aab23c94fc2771",
-	"projectname": "M云音乐 基于Uni-app 仿网易云音乐的音乐播放软件",
+	"projectname": "M%E4%BA%91%E9%9F%B3%E4%B9%90%20%E5%9F%BA%E4%BA%8EUni-app%20%E4%BB%BF%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%9A%84%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E8%BD%AF%E4%BB%B6",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
