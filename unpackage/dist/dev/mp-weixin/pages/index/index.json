@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "header": "/components/Header/index",
+    "bottom-bar": "/components/BottomBar/index",
+    "find": "/components/Find/index",
+    "mine": "/components/Mine/index",
+    "yuncun": "/components/Yuncun/index",
+    "video": "/components/Video/index"
+  }
+}
