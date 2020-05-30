@@ -95,7 +95,9 @@
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {},
+		"requiredBackgroundModes": ["audio"]
     },
     "mp-alipay" : {
         "usingComponents" : true

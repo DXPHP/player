@@ -235,7 +235,7 @@ var bgAudioMannager = '';var _default =
         'icon': 'cuIcon-moreandroid' }],
 
 
-      duration: '100',
+      duration: '',
       ifPlay: false,
 
       songList: [{
@@ -243,6 +243,13 @@ var bgAudioMannager = '';var _default =
         "author": "周杰伦",
         "src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005201535525ec4ddd80562c.flac",
         "img": "http://p2.music.126.net/_UOTSqLC8qHRivyuUBC9OQ==/18200215974944920.jpg" },
+
+      {
+        "name": "布拉格广场",
+        "author": "蔡依林 / 周杰伦",
+        "src": "https://wfd-pic.oss-cn-shenzhen.aliyuncs.com/audio/202005301210065ed1dc9ecf1f9.mp3",
+        "img": "http://p2.music.126.net/D9_qDt18yiHxVPr6CRGgLA==/109951163406952902.jpg" },
+
 
       {
         "name": "七里香",
@@ -319,6 +326,7 @@ var bgAudioMannager = '';var _default =
     'alltime': function alltime() {
       var that = this;
       var s = that.duration;
+
       //计算分钟
       //算法：将秒数除以60，然后下舍入，既得到分钟数
       var h;
@@ -346,6 +354,8 @@ var bgAudioMannager = '';var _default =
       bgAudioMannager.singer = that.songList[that.nowIndex].author;
       bgAudioMannager.coverImgUrl = that.songList[that.nowIndex].img;
       bgAudioMannager.src = that.songList[that.nowIndex].src;
+
+      // console.log(bgAudioMannager.duration);
 
       bgAudioMannager.onPlay(function () {
         that.playFunc();
